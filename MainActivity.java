@@ -21,7 +21,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String PRODUCT_URL = "http://192.168.43.241/MyApi/api.php";
+    private static final String PRODUCT_URL = "http://<ip_address>/MyApi/api.php";
 
     RecyclerView recyclerView;
     ProductAdapter adapter;
